@@ -1,0 +1,34 @@
+INTRODUCTION
+
+        Like all high-level languages, Python is easy to read, takes less time to write, and is portable. This versatile 
+programming language has two versions: Python 2 and Python 3. Wiki says: Python 2.x is legacy, Python 3.x is the present and
+future of the language. That is, Python 2 is no longer in development and all new features will be added in Python 3. Note that, 
+keeping this in mind, the code examples in this tutorial are in Python 3. Wherever Python 2.x code is shown, it will be 
+highlighted.
+        
+EXECUTION
+
+        Python executes code top to bottom, when written in the correct syntax. To execute the code in our python tutorials, you
+will need to install python in your machine as a prerequisite. A small description on how to install Python and get the 
+interpreter running is given here. Once the interpreter is running you can start typing in commands to get the result.
+        
+INPUT USING THE input() FUNCTION
+
+                A function is defined as a block of organized, reusable code used to perform a single, related action. Python has
+many built-in functions; you can also create your own. Python has an input function which lets you ask a user for some text
+input. You call this function to tell the program to stop and wait for the user to key in the data. In Python 2, you have a 
+built-in function raw_input(), whereas in Python 3, you have input(). The program will resume once the user presses the ENTER or
+RETURN key. Look at this example to get input from the keyboard using Python 2 in the interactive mode. Your output is displayed 
+in quotes once you hit the ENTER key.
+                
+      >>>raw_input()
+       I am learning at hackerearth   (This is where you type in)
+      'I am learning at hackerearth' (The interpreter showing you how the input is captured.)
+      
+      
+      In Python 3.x, you need to use input().
+      >>> input()
+      I am learning at hackerearth.
+      'I am learning at hackerearth.'
+      
+      
